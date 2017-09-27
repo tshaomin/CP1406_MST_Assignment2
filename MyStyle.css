@@ -1,0 +1,34 @@
+#topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+    width: 12.25em;
+    font-size: 15px;
+	background-color: darkgray;
+	border-right: 0.32em solid black;
+}
+ #topnav ul{
+    list-style: none;
+    display: inline;
+    width: 20px;
+}
+
+#topnav li a:hover {
+    background-color: goldenrod;
+    color: white;
+	
+}
+
+#topnav li a.active {
+    background-color:lightcoral;
+    color: white;
+}
+
+a {
+	display: block;
+	padding: 0.5em;
+	
+}

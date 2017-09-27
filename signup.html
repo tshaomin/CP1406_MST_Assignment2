@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>TCMC- Sign Up</title>
+<meta name="keywords"  />
+<meta name="description"/>
+<link rel="stylesheet" href="js-form-validation.css" type="text/css" />
+<link href="affaircss.css" rel="stylesheet" type="text/css">
+<script src="form-validation.js"></script>
+</head>
+
+<body onLoad="document.registration.fname.focus();">
+ <header>
+  <img src="Pictures/Header.png" width="100%" height="180em" >
+         </header>
+         <div id="topnav">
+<ul>
+    <li><a href="index.html" target="_self">Home</a></li>
+    <li><a href="Daily Affair.html" target="_self">Daily Affair</a></li>
+    <li><a href="noticeboard.html" target="_self">Notice Board</a></li>
+    <li><a href="broadcasting.html" target="_self">Broadcasting</a></li>
+    <li><a href="about us.html" target="_self">About Us</a></li>
+    <li><a href="contactUs.html" target="_self">Contact Us</a></li>
+    <li><a href="JoinUs.html" target="_self">Join Us</a></li>
+ </ul>
+</div>
+<br>
+<div class="bigbox1">
+<div id="info2">
+	<h1>Want to hire us as your production team? Sign up here</h1>
+<p>Fill in the slots below. Use tab keys to move from one input field to the next.</p>
+	</div>
+<div class="register1">
+<form name="myform" id="myform" onSubmit="return validate();">
+<ul>
+<li> First Name: *required*<input type="text" id="fname" value=""></li>
+<li> Last Name: *required*<input type="text" name="lname" value=""> </li>
+<li>Email Address: *required*<input type="text" id="email" value=""></li>
+<li>Address: *required*<input type="text" id="address" value=""></li>
+<li>Phone: *required*<input type="text" id="phone" value=""></li>
+<li>Name of Band/Artist:<input type="text" id="band" value=""></li>
+
+<li><label for="ppl">Number of Group Members:</label>
+	<select id="ppl" name="number of people">
+		<option value="1">1</option>
+		<option value="2-4">2-4</option>
+		<option value="5-8">5-8</option>
+		<option value="9-14">9-14</option>
+		<option value="15-20">15-20</option>
+		<option value="21+over">21-over</option>
+	  </select></li>
+<li><input type="submit" name="submit" value="Submit" /></li>
+</ul>
+
+</form>
+</div>
+	</div>
+		<div class="scroll-left">
+	   <p>&copy Towsville Community Music Center.&nbsp; &nbsp;  <b>Any Enquires, do not hesitate to contact us at</b> <font color="red">+61 89834753!</font> &nbsp &nbsp <b>Email us at: <a href="mailto:admin.townville@live.com.au" target="_top">Send Email</a></b>
+</p>
+</div>
+</body>
+</html>
